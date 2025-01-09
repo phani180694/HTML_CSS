@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    border: 1px solid blue;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    background: rgb(28,171,140);
+    background: linear-gradient(90deg, rgba(28,171,140,0.9780287114845938) 35%, rgba(74,255,0,1) 100%);
+    border-radius: 20px;
+    padding: 20px;
+    line-height: 22px;
+    overflow: auto;
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.75);
+}
